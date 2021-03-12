@@ -39,7 +39,7 @@ Create credentials, source control
 and Machine, copy your private ssh key    
 Create a projet  
 Create an inventory  
-Create a Job Template  
+Create a Job Template  git s
 Execute the Job Template  
 
 
