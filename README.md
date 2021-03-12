@@ -34,9 +34,9 @@ sudo usermod -aG docker centos  # fermer votre shell pour les chargements soient
 ## Mise en place des containers et du fichier inventory  
 Demarrer des containers pour simuler plusieurs machines.    
 ```shell script
-docker run -d --name target1 systemdevformations/ubuntu_ssh:v2  
+docker run -d --name target1 systemdevformations/ubuntu_ssh:v2 
 docker run -d --name target2 systemdevformations/centos_ssh:v5 
-docker run -d --name target3 --env ROOT_PASSWORD=Passw0rd systemdevformations/alpine-ssh:v1   
+docker run -d --name target3 --env ROOT_PASSWORD=Passw0rd systemdevformations/alpine-ssh:v1 
 ```
 Check si les containers sont presents  
 Faire un ```docker ps | grep systemdevformation ``` 
